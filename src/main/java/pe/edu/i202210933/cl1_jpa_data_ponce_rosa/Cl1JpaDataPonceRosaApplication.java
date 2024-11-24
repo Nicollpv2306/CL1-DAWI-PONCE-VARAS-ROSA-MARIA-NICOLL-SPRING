@@ -21,7 +21,6 @@ public class Cl1JpaDataPonceRosaApplication implements CommandLineRunner {
 		SpringApplication.run(Cl1JpaDataPonceRosaApplication.class, args);
 	}
 
-
 	@Override
 	@Transactional
 	public void run(String... args) throws Exception {
